@@ -1,0 +1,55 @@
+@charset "utf-8";
+.home_txt{
+	width: 100%;
+	display: inline-block;
+}
+.h_animate{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+    padding: 3px 0;
+    color:#fff;
+    clear: both;
+    position: relative;
+    width:auto;
+    height: auto;
+    display:block;
+    /*left:-100%;*/
+    left:0;
+    -webkit-animation: move 4s 1;
+    animation : move 4s 1;
+}
+@-webkit-keyframes move {
+  0% {bottom:-100%;}
+ 20% {bottom:0%;}
+ 80% {bottom:0%;}
+100% {bottom:100%;}
+}
+
+@keyframes move {
+0% {bottom:-100%;}
+ 20% {bottom:0%;}
+ 80% {bottom:0%;}
+100% {bottom:100%;}
+}
+
+.h_head{
+	width: 250px;
+	text-align: right;
+	margin-right: 15px;
+	height: 70px;
+	line-height: 70px;
+	float: left;
+
+}
+.h_content{
+  overflow: hidden;
+  left: 0px;
+  margin-bottom: 50px;
+  width: 100%;
+  /*padding-left: 100px;*/
+  z-index: 55;
+
+}
+.h_head{
+  display: none;
+}
